@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import studentsRoutes from './students.routes.js';
 
+
 const rotas = Router();
 rotas.use("/students", studentsRoutes);
 
